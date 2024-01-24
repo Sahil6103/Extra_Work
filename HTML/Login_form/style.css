@@ -1,0 +1,12 @@
+body {
+    background: #6864c2;
+}
+.form {
+    margin: 100px 450px 100px 450px;
+}
+
+.form_frame {
+    background: #2a2a67;
+    padding: 50px 50px 50px 50px;
+    border-radius: 8px;
+}
