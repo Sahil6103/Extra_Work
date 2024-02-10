@@ -1,0 +1,102 @@
+body {
+    background-image: linear-gradient(to right top, #ac96b5, #ad8fbd, #ad87c7, #ab80d0, #a879da);
+}
+
+.main-card { 
+    background-color: white;
+    margin: 100px 200px;
+    border-radius: 50px;
+}
+
+.left {
+    padding: 80px;
+}
+
+.left .form-control {
+    background-color: rgba(128, 128, 128, 0.2);
+    border: none;
+}
+
+.left .form-control:focus {
+    box-shadow: none;
+}
+
+.left ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.left ul li {
+    list-style: none;
+    border: 2px solid rgba(84, 84, 84, 0.5);
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 5px;
+    width: 75px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+.left ul li:hover {
+    border: 2px solid black;
+    scale: 1.2;
+    transition: all 0.3s;
+}
+
+.left ul li a {
+    color: black;
+}
+
+.left .form_link {
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+}
+
+.left .form_link::after {
+    content: " ←";
+}
+
+.left .form_link::before {
+    content: "→ ";
+}
+
+.left .btn {
+    background-color:#653780;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    padding: 10px 0;
+}
+
+.right { 
+    background-color: #653780;
+    border-top-left-radius: 140px;
+    border-bottom-left-radius: 140px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.right h1 {
+    color: white;
+    margin: 150px 0 0 0 ;
+}
+
+.right p { 
+    color: white;
+    padding: 20px 50px 20px 50px;
+}
+
+.right .signup {
+    text-align: center;
+}
+
+.right a { 
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+

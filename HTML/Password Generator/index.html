@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="password d-flex justify-content-center ">
+        <div class="main-frame m-auto">
+            <div class="card align-items-center ">
+                <div class="card-body">
+                    <div class="mb-3 d-flex ">
+                        <input type="text" id="password-text" class="password-text position-relative" disabled>
+                        <span class="copy-btn text-center pb-0"><box-icon name='copy'
+                                class="copy-icon"></box-icon></span>
+                        <span class="gen-btn text-center pb-0 position-absolute "><box-icon name='repeat'
+                                class="gen-icon"></box-icon></span>
+                    </div>
+                    <h4>Customize your Password</h4>
+                    <div class="mb-3">
+                        <!-- <label class="pass-length">Password Length</label><br> -->
+                        <span class="span-text m-0">Password Length : </span>
+                        <input type="number" id="length" class="pass-length mb-2 ms-2 mt-2" min="4" max="16">
+                        <input type="range" id="pass-range" class="pass-range" min="4" max="16">
+                    </div>
+                    <div class="row align-items-center d-flex justify-content-evenly mt-4">
+                        <div class="col-4 px-2">
+                            <div class="mb-3">
+                                <input type="radio" name="pass-type" id="pass-easy-type" class="pass-type" value="Easy">
+                                <label for="Easy">Easy</label><br>
+                                <input type="radio" name="pass-type" id="pass-medium-type" class="pass-type"
+                                    value="Medium">
+                                <label for="Medium">Medium</label><br>
+                                <input type="radio" name="pass-type" id="pass-hard-type" class="pass-type" value="Hard">
+                                <label for="Hard">Hard</label>
+                            </div>
+                        </div>
+                        <div class="col-4 px-2">
+                            <div class="mb-3">
+                                <input type="checkbox" name="uppercase" id="uppercase-letter" class="uppercase-letter"
+                                    value="uppercase" checked>
+                                <label for="uppercase">Uppercase</label><br>
+                                <input type="checkbox" name="uppercase" id="lowercase-letter" class="lowercase-letter"
+                                    value="lowercase" checked>
+                                <label for="lowercase">Lowercase</label><br>
+                                <input type="checkbox" name="number" id="numbers" class="numbers" value="numbes">
+                                <label for="numbers">numbers</label><br>
+                                <input type="checkbox" name="symbols" id="symbols" class="symbols" value="symbols">
+                                <label for="symbols">Symbols</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+</body>
+<!-- bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+<!-- Custom JS -->
+<script src="main.js"></script>
+
+</html>

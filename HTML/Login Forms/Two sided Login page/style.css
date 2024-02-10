@@ -1,0 +1,73 @@
+body {
+    overflow: hidden;
+}
+
+.left img {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.left .heading p {
+    top: 40%;
+    left: 16%;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 13px 13px 5px 13px;
+    border-radius: 10px 10px 0 0;
+    backdrop-filter: blur(10px);
+}
+
+.left .heading h1 {
+    top: 346px;
+    left: 185px;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0,0.6);
+    padding: 3px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.right {
+    background-color: #1c1c1c;
+}
+
+.right form {
+    margin: 25% 0 0 100px;
+    width: 70%;
+    border: 2px solid rgba(253,150,92,255);
+    box-shadow: 0 0px 5px 0 rgba(253,150,92,255), 0 1px 25px 0 rgba(253,150,92,255);
+    padding: 30px;
+    border-radius: 18px;
+}
+
+form .form-control {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form .form-control:focus {
+    box-shadow: none;
+}
+
+form a {
+    text-decoration: none;
+    color: white;
+}
+
+form .btn {
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+
+form .btn:hover {
+    background-color: white;
+    transition: all 0.3s;
+}

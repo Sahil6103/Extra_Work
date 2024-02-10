@@ -1,0 +1,34 @@
+• create database
+=> create database bank_details;
+----------------------------------------------------
+• create table bank
+=> create table bank 
+(
+    branch_id int PRIMARY KEY,
+    branch_name varchar(20),
+    branch_city varchar(20)
+);
+----------------------------------------------------
+• create table loan
+=> create table loan
+(
+    loan_no int,
+    branch_id int,
+    account_holder_id int,
+    loan_amount int,
+    loan_type varchar(20)
+);
+----------------------------------------------------
+• create table account_holder
+=> create table account_holder
+(
+    account_holder_id int,
+    account_no int,
+    account_holder_name varchar(20),
+    city varchar(20),
+    contact int(10),
+    acc_create_date varchar(20),
+    accoun_status varchar(20),
+    account_type varchar(20),
+    balance int
+);
