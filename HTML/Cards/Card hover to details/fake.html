@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .upper {
+            background: red;
+            position: relative;
+            width: 300px;
+            height: 500px;
+            z-index: 1;
+        }
+
+        .lower {
+            position: absolute;
+            background-color: black;
+            bottom: 0;
+            color: white;
+            width: 300px;
+            height: 150px;
+            z-index: 0;
+        }
+
+        .upper:hover {
+            z-index: -1;
+        }
+
+        .upper:hover .lower {
+            z-index: 1;
+            transform: translateY(-50px);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <h1>Upper</h1>
+        <div class="lower">
+            <h2>Lower</h2>
+        </div>
+    </div>
+
+</body>
+
+</html>
