@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: none;
+    background-color: white;
+    margin: 50px;
+    border: 1px solid;
+    padding: 50px;
+}
+
+.card:hover {
+    /* transform: scale(1.1,1.1); */
+    transition: all 0.3s;
+}
+
+.cards:hover > .card:not(:hover) {
+    filter: blur(10px);
+    transition: all 0.3s;
+} 

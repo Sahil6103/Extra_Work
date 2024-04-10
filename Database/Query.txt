@@ -32,3 +32,27 @@
     account_type varchar(20),
     balance int
 );
+----------------------------------------------------
+• Consider an example where there’s an account holder table where we are
+doing an intra bank transfer i.e. a person holding account A is trying to
+transfer $100 to account B.
+- for this you have to make a transaction in sql which can
+transfer fund from account A to B
+- Make sure after the transaction the account information
+have to be updated for both the credit account and the
+debited account
+=> update account_holder set balance = balance - 100 where account_no = 101;
+update account_holder set balance = balance + 100 where account_no = 102;
+---------------------------------------------------
+• fetch the details of the account holder who are related from the same city
+=> select * from account_holder a1, account_holder a2 where a1.account_holder_name != a2.account_holder_name AND a1.city = a2.city;
+----------------------------------------------------
+• Write a query to fetch account number and account holder name, whose accounts were created after 15th of any month
+=> select account_no, account_holder_name FROM account_holder where account_creation_date > 15;
+----------------------------------------------------
+• Write a query to display the city name and count the branches in that city.
+Give the count of branches an alias name of Count_Branch.
+=> SELECT branch_city AS branch_city, COUNT(*) AS Count_Branch FROM bank;
+----------------------------------------------------
+• Write a query to display the account holder’s id, account holder’s name, branch id, and loan amount for people who have taken loans. (NOTE : use sql join concept to solve the query)
+select account_holder.account_holder_id, account_holder.account_holder_name,loan.branch_id,loan.loan_amount from account_holder inner JOIN loan on account_holder.account_holder_id = loan.account_holder_id;

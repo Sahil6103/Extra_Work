@@ -1,0 +1,86 @@
+body {
+    background-image: url(nature.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+.login-card {
+    width: 30%;
+    color:  white;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    padding: 40px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.525)
+}
+
+.login-card i {
+    font-size: 40px;
+}
+
+.login-card h2 {
+    text-align: center;
+}
+
+.input-control {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 100%;
+    outline: none;
+}
+
+.input-field{
+    position: relative;
+}
+
+.input-control:nth-child(1) {
+    margin: 0 0 40px 0;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition:  all 0.3s;
+}
+
+input:focus ~ label{
+/* input:valid ~ label { */
+    top: -18px;
+    left: 0;
+    color: aquamarine;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+/* 
+input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: aquamarine;
+    font-size: 14px;
+} */
+
+.login-btn {
+    background-color: rgb(75, 162, 197);
+    border: none;
+    padding: 5px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+}
+
+.login-card a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}

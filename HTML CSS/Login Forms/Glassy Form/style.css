@@ -1,0 +1,122 @@
+body { 
+    background-image: linear-gradient(to right top, #667a98, #598ba5, #509ca9, #59aba3, #76b897);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: none;
+    width: 25%;
+    text-align: center;
+    padding: 40px 10px;
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.632);
+    margin: 10px 0 30px 0;
+}
+
+input {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(5px);
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.632);
+}
+
+input:focus {
+    border:none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.632);
+}
+
+a {
+    color: rgba(255, 255, 255, 0.632);
+    text-decoration: none;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.174);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    backdrop-filter: blur(5px);
+    color: rgba(255, 255, 255, 0.632);
+    padding: 8px 40px;
+    margin: 20px 0;
+}
+
+.box1{
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100px;
+    height: 100px;
+    z-index: -1;
+    position: relative;
+    top: 18%;
+    left: 38%;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    top: 12%;
+    right: 35%;
+}
+.box3{
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: -1;
+    top: 45%;
+    left: 45%;
+}
+.box4{
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: -1;
+    top: 44%;
+    right: 36%;
+}
+.box5{
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.126);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1;
+    top: 67%;
+    right: 37%;
+}

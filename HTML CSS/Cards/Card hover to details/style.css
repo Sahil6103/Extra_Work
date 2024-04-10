@@ -31,6 +31,7 @@ body {
     z-index: 1;
     opacity: 1;
     transition: all 0.2s;
+    aspect-ratio: 2/3;
 }
 
 .card-body {
@@ -60,7 +61,6 @@ body {
     background: transparent;
     transform: translateY(0);
     height: auto;
-
 }
 
 .labels a{
