@@ -1,0 +1,20 @@
+• create database :
+=> create database stud_data
+
+• create table :
+=> create table student_details
+   (
+	stud_id int(5),
+	stud_name varchar(20),
+	stud_city varchar(20),
+	stud_email varchar(25),
+	stud_mob_no int(10)
+   );
+
+• insert data :
+=> insert into table student_details values ("101","a","rajkot","a1@gmail.com","123456789")
+=> insert into table student_details values ("102","b","rajkot","b1@gmail.com","986543210")
+=> insert into table student_details values ("103","c","ahmbd","c1@gmail.com","1122334455")
+
+• alter table :
+=> alter table student_details add primary key `stud_id`

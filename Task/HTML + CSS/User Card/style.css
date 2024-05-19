@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.usercard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: solid red; */
+    height: 100vh;
+    
+}
+
+.usercard .card {
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+}
+
+.usercard .card .card-upper {
+    background-color: rgb(75, 75, 149);
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.usercard .card img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.usercard .card .card-body {
+    text-align: center;
+    padding: 20px 30px;
+    font-family: "Poppins", sans-serif;
+}
+
+.usercard .card .card-body h4 {
+    margin: 0 0 0 0;
+}
+
+.usercard .card .card-body p {
+    margin: 10px 0 0 0;
+}
+
+.usercard .social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.usercard .social-link i{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin: 20px 5px 5px 5px;
+}
+
+
+.fa-facebook-f {
+    background-color: blue;
+}
+
+.fa-twitter {
+    background-color: rgb(76, 159, 192);
+}
+
+.fa-instagram {
+    background-color: rgb(222, 82, 105);
+}
+
+.fa-youtube {
+    background-color: red;
+}
+
+.btns .subscribe, .btns .msg {
+    padding: 10px 25px;
+    background-color: rgb(88, 88, 156);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+}
+
+.btns .msg {
+    margin: 0 0 0 20px;
+} 
+
+.stats span { 
+    margin: 0 15px;
+}
