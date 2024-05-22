@@ -1,0 +1,63 @@
+                                            Q. Define terms 
+1. Website :-
+     - First of all website is collection of web pages.
+     - Website is accessible to every one.
+     - Website is created by an individual person, group, business company, etc many more.
+     - Website stores the information of everything you putted in or photos, videos or any other informations.
+     - Websites are stores in web server.
+     - Web pages that stores in website are digital files.
+     - This webpages are linked with html to show common interface and design.
+     - With internet we can access website to different types of content.
+     - This are the basic things about the website.
+
+2. Webpage :-
+     - Webpages is stores in website.
+     - There are more than multiple webpages.
+     - Webpage is single hypertext document on world wide web.
+     - Webpage is written in html and show on any browser like firefox, chrome, opera,edge etc,,,
+     - Multiple webpages stores the mutliple type of different document file.
+     - This webpage is access by URL on browser.
+     - Each webpage is linked with unique URl, two webpage do not have samw URL.
+     - Webpage contains the linkes, document, link for other pages, etc.
+     - Main use of webpage is to provide information to user in text or image form.
+
+3. Web browser:-
+     - Web browser is platform to explore retrieve and display the information available on world wide web.
+     - This information may be in picture form, text form, webpage, videos, music, etc,,
+     - Without web browser website can not be run.
+     - There are different types of web browser like firefox, chrome etc,,
+     - Web browser is display information based on website that connected with hypertext.
+     - After user request on web browser, web server send back data to the web browser to display the result on internet connected device.
+     - On behalf of user web browser sends the request to web server all over the internet by usin HTTP(hyper text transfer protocol).
+     - Browser requires the smart phones, computer, tablet that connected with internet.
+
+4. Web server:-
+     - Web server is software that delivers the content of a website the user's browser.
+     - Web server is used for storing and transferring a website's content.
+     - Web server sends all the text, video, application data, graphics, and other content that users may require.
+     - Its main function is to provide each user who wants it with access to a website's content.
+     - Web server software is required for every computer that hosts websites.
+     - All website data is stored and set up on web servers.
+     - Basically, web servers are computers used to store HTTP files which makes a website and when a client requests a certain website.
+
+5. HTML:-
+     - HTML is stands for HyperText Markup Language.
+     - which is the standard document format for web pages that is supported by all modern browsers.
+     - Markup Language is a set of instructions that uses the opening & closing tags with having the content in it.
+     - HTML is a markup language, it provides a way to design web pages along with the text.
+     - user can easily publish online documents with headings, photos, tables etc  and you can get it when ever you want as per user design and format.
+     - HTML documents can be displayed on any platforms such as Windows and Linux etc.
+     - HTML document can be created using an HTML text editor. Save the text file using the “.html” or “.htm” extension.
+
+6. CSS:-
+     - CSS stands for Cascading Style Sheets.
+     - CSS describes how HTML elements are to be displayed on screen.
+     - CSS saves a lot of work. It can control the layout of multiple web pages all at once.
+     - External stylesheets are stored in CSS files.
+     - There are total 3 types of CSS, 1.Inline CSS 
+                                       2.Internal CSS
+                                       3.External CSS
+     - CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+     - CSS is used to design HTML as per user's choice.
+
+                                           

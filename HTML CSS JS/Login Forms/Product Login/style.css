@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+.user-form {
+  background-image: url(img/branch-contemporary-gadgets.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.user-form .card {
+  width: 30%;
+  background-color: rgba(240, 240, 240, 0.685);
+  backdrop-filter: blur(2px);
+  padding: 25px;
+  border: none;
+  border-radius: 8px;
+}
+
+.user-form .card h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+.user-form .card input {
+  padding: 10px 12px;
+  border-radius: 5px;
+}
+
+.user-form .card input:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.user-form .card .btn {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 5px;
+  color: white;
+}
+
+.user-form .card a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.753);
+  font-weight: 500;
+}
+
+.signup {
+  background-image: url(img/electronic-devices-stationeries-blue-backdrop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color: rgb(223, 236, 227);
+}
+
+header .navbar {
+  padding: 30px 0;
+}
+
+header .navbar-brand {
+  font-size: 1.8rem;
+}
+
+header .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+header .link a {
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.548);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+header .link a:hover {
+  color: rgba(0, 0, 0, 0.753);
+}
+
+header .link .user-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .link .user-icon i {
+  font-size: 1.2rem;
+}
+
+.product {
+  background-color: rgb(223, 236, 227);
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .card {
+  padding: 25px;
+  width: 50%;
+  background-color: rgba(240, 240, 240, 0.685);
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.product .card h1 {
+  font-size: 2rem;
+}
+
+.product .card label {
+  font-size: 1.2rem;
+  margin: 0;
+  color: rgba(40, 39, 39, 0.803);
+}
+
+.product .card input {
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, 0.764);
+}
+
+.product .card input:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.product .card button {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.753);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.product_list {
+  background-color: rgb(223, 236, 227);
+  height: 100vh;
+  padding: 30px 0 0 0;
+}
+
+/* .product_list .table {
+  background-color: transparent;
+}
+
+.product_list .table .edit_icon i {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(42, 184, 42, 0.767);
+  color: white;
+}
+
+.product_list .table .del_icon i {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgb(216, 75, 75);
+  color: white;
+} */
+
+.table {
+  border-radius: 8px;
+}
+
+/* Custom styles for the product table */
+.table.table-bordered {
+  border: 2px solid #333333; /* Change the border color */
+  border-radius: 5px; /* Add border-radius to the table */
+  overflow: hidden;
+}
+
+.table.table-bordered th,
+.table.table-bordered td {
+  border: 2px solid #55555533; /* Change the cell borders */
+  padding: 10px; /* Add padding for better readability */
+  /* text-align: center; Center the text */
+}
+
+.table.table-bordered {
+  border: 2px solid #333; /* Change the table border width */
+}
+
+.table.table-bordered th {
+  background-color: #f2f2f2; /* Change the header background color */
+  color: #333; /* Change the header text color */
+  font-weight: bold; /* Make the header text bold */
+}
+
+.table.table-bordered tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Change the background color of odd rows */
+}
+
+.table.table-bordered tbody tr:nth-child(even) {
+  background-color: #fff; /* Change the background color of even rows */
+}
+
+.table.table-bordered tbody tr:hover {
+  background-color: #e0e0e0; /* Change the background color on hover */
+}
+
+.table.table-bordered .icon i {
+  cursor: pointer; /* Change the cursor to pointer for icons */
+}
+
+.table.table-bordered .icon.edit_icon i {
+  /* background-color: #4caf50; Change the color of edit icon */
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(42, 184, 42, 0.767);
+  color: white;
+}
+
+.table.table-bordered .icon.del_icon i {
+  /* color: #f44336; Change the color of delete icon */
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgb(216, 75, 75);
+  color: white;
+}

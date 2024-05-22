@@ -1,0 +1,9 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box:hover {
+  background-color: red; /* Change background color on hover */
+}

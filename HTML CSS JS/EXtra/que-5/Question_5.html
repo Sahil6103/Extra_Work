@@ -1,0 +1,153 @@
+<!-- Create a Table Of college Management system using row span & col span. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collage Management Table</title>
+    <style> /* style tag for css*/
+        /* css for cation tag */
+        caption { 
+            margin: 20px 50px;
+        }
+        /* css for table tag */
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+        /* css for td tag */
+        td {
+            border: 1px solid;
+            padding: 10px 10px;
+        }
+        /* css  for th tag */
+        th {
+            border: 1px solid black;
+            padding: 8px 8px;
+        }
+        /* css for collage class */
+        .collage
+        {
+            padding: 30px 30px;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <center>
+        <!-- table tag -->
+    <table width="5px"> 
+        <caption>Collage Management Table</caption>
+        <!-- thead for table heading -->
+        <thead style="background-color: rgb(140, 116, 163);color: #fff;">
+            <!-- Use to create the row -->
+            <!-- TR = Table Row -->
+
+            <tr>
+                <th  style="background-color: rgb(75, 41, 107);;" colspan="7" class="collage">ROANOKE COLLAGE - MUMBAI</th>
+                <th style="background-color: #fff; "><img src="https://th.bing.com/th/id/R.6971adfe94b6a69cbb1e52c43ec8c655?rik=RkIJenD5x%2bsQfQ&riu=http%3a%2f%2froanoke.edu%2fImages%2flogos%2fUpdated%2fseal.jpg&ehk=zoKSOI2k8JPTnO2zy5cuguUdsHdhhMbAQUvS63KkK4s%3d&risl=&pid=ImgRaw&r=0" alt="image" height="63px" width="63px"></th>
+                
+            </tr>
+           
+            <tr>
+                <!-- Use to create head -->
+                <!-- TH = Table Head -->
+                <th rowspan="2">Enrollment_no</th>
+                <th rowspan="2">Name</th>
+                <th rowspan="2">Course</th>
+                <th rowspan="2">Subject</th>
+                <th rowspan="2">Semester</th>
+                <th colspan="2">Marks </th>
+                <th rowspan="2">FEES</th>
+
+            </tr>
+            <tr>
+                <th>Internal</th>
+                <th>Theoritical</th>
+               
+                
+                
+
+            </tr>
+        </thead>
+        <tbody style="background-color: bisque;">
+        <tr>
+            <!-- Use to add data -->
+            <!-- TD = Table Data -->
+            <td>HC0149J10</td>
+            <td> Mansi</td>
+            <td rowspan="3">B.com</td>
+            <td>English, Company law, Economics,Financial Account</td>
+            <td>Semester-3</td>
+            <td>30</td>
+            <td>70</td>
+            <td rowspan="3">PAID</td>
+           
+
+            </tr>
+           <tr>
+            <td>HC0149J08</td>
+            <td>Uday</td>
+            <td>Management Account,Indian Economy, English, Statstics, Accounts, HMR</td>
+            <td>Semester-1</td>
+            <td>30</td>
+            <td>70</td>
+            <!-- <td>PAID</td> -->
+           
+           </tr>
+           <tr>
+            <td>HC0149J06</td>    
+            <td>Jatin</td>
+            <td>cost Account,English, Economic, Income Tax,Co-orperate</td>
+            <td>Semester-5</td>
+            <td>30</td>
+            <td>70</td>
+            <!-- <td>PAID</td> -->
+           
+           </tr>
+           <tr>
+            <td>HC0149J98</td>
+            <td>Aditi</td>
+            <td rowspan="2">B.sc IT</td>
+            <td>C++, RDBMS using Oracle, Content Management System, Programming with Java</td>
+            <td>Semester-3</td>
+            <td>30</td>
+            <td>70</td>
+            <td rowspan="3">PENDING</td>
+           </tr>
+           <tr>
+            <td>HC0149J12</td>
+            <td>subham</td>
+            <td>Database, Data Strucutres, Java Practicals, Software Testting</td>
+            <td>Semester-6</td>
+            <td>30</td>
+            <td>70</td>
+            <!-- <td>PENDING</td> -->
+           </tr>
+           <tr>
+            <td>HC0149J91x  </td>
+            <td>Sahil</td>
+            <td rowspan="2">BBA</td>
+            <td>HRM, Business Analytics, Business Management, Marketing Management</td>
+            <td rowspan="2">Semester- 4</td>
+            <td>30</td>
+            <td>70</td>
+            <!-- <td>PENDING</td> -->
+           </tr>
+           <tr>
+            <td>HC0149J77</td>
+            <td>Nency</td>
+            <!-- <td rowspan="2">BBA</td> -->
+            <td>HRM, Business Analytics, Business Management, Marketing Management</td>
+            <!-- <td>Semester-4</td> -->
+            <td>30</td>
+            <td>70</td>
+            <td>PAID</td>
+           </tr>
+        
+          
+    </table>
+</center>
+</body>
+</html>

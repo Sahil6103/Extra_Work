@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.link:focus {
+  color: blue;
+  font-weight: bold;
+}
+
+.link:active {
+  color: violet;
+}
